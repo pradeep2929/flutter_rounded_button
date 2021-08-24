@@ -6,8 +6,18 @@ A new Flutter project for Rounded Button.
 
 This package use for rounded button in pure dart language and supporting for all plateform.
 
-## Example
+## How to use this plugin
+
+* add the plugin in .yaml file
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  rounded_button:
 ```
+
+## Example
+```dart
 RoundedButton(
       buttonName: 'Login',
       width: 300,
