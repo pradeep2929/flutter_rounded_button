@@ -18,24 +18,13 @@ class RoundedButton extends StatelessWidget {
   RoundedButton(
       {this.buttonName = 'button',
       this.onTap,
-      this.height,
-      this.bottomMargin = 24,
-      this.borderWidth = 2,
-      this.width,
-      this.buttonColor,
+      this.height = 52,
+      this.bottomMargin = 10,
+      this.borderWidth = 0.0,
+      this.width = 300,
+      this.buttonColor = Colors.blue,
       this.fontSize});
 
-  static RoundedButton example() {
-    return RoundedButton(
-      buttonName: "ENTRAR",
-      onTap: () {},
-      width: 300,
-      height: 50.0,
-      bottomMargin: 10.0,
-      borderWidth: 0.0,
-      buttonColor: Colors.blue,
-    );
-  }
 
   @override
   Widget build(BuildContext context) {
