@@ -13,6 +13,8 @@ class _ExampleAppState extends State<ExampleApp> {
   Widget build(BuildContext context) {
     return Center(child: RoundedButton(
       buttonName: 'Login',
+      width: 300,
+      height: 52,
       onTap: (){
         debugPrint('button clicked ');
       },

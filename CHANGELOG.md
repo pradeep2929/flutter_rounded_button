@@ -1,3 +1,3 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Rounded button with many properties (i.e- height, width, font, etc..).
