@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 // Designed RoundedButton
 
 class RoundedButton extends StatelessWidget {
-  final String buttonName;gi
+  final String buttonName;
   final VoidCallback? onTap;
   final double? height;
   final double? width;
